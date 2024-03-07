@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: red
+  color: blue
 
 # SEO
 marketing:
@@ -30,18 +30,8 @@ marketing:
 header:
   navbar:
     enable: true
-    show_search: true
     show_theme_chooser: true
 
-# Site footer
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
 
 # Localization
 locale:
@@ -51,7 +41,7 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
