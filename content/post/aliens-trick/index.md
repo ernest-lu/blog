@@ -92,8 +92,6 @@ int main() {
 
 This can be interpreted as an application of using Lagrange multipliers. Our function without the k constraint is easy to solve, and so we add a lagrange multiplier $\lambda k$ to account for this constraint. Our Lagrangian function (with this Lagrange multiplier added) is still convex, so we can find the optimal values quickly and binary search for the point where the constraint parameter $\lambda$ gives us the $k$ value that we want.
 
-I found this technique under lots of different names on many different sources, so this is my attempt to collect what I have seen (WQS binary search, Lagrangian Relaxation, Aliens Trick). 
-
 Good problems for this technique:  
 - https://atcoder.jp/contests/abc218/tasks/abc218_h
 - https://cses.fi/problemset/task/2426/ 
